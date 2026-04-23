@@ -1,4 +1,4 @@
-# TNT Cart Cat Guard
+# XaniTNTCart
 
 Client-side Fabric mod for Minecraft 1.21.11 that warns the player about nearby TNT minecarts with a cat overlay, sound alert, and a toggleable keybind.
 

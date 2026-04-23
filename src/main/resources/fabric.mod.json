@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "tntcartcatguard",
 	"version": "${version}",
-	"name": "TNT Cart Cat Guard",
-	"description": "Shows a cat warning overlay when TNT minecarts are nearby and lets you tune the alert in config.",
+	"name": "XaniTNTCart",
+	"description": "Показывает котика, когда рядом есть TNT-вагонетка.",
 	"authors": [
 		"Xani4ka",
 		"Codex"
