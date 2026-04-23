@@ -1,0 +1,9 @@
+{
+	"category.tntcartcatguard": "TNT Cart Cat Guard",
+	"key.tntcartcatguard.toggle": "Увімк./вимк. захист від TNT-вагонеток",
+	"message.tntcartcatguard.enabled": "Захист від TNT-вагонеток увімкнено",
+	"message.tntcartcatguard.disabled": "Захист від TNT-вагонеток вимкнено",
+	"overlay.tntcartcatguard.warning": "ПОРУЧ TNT-ВАГОНЕТКА",
+	"overlay.tntcartcatguard.count": "К-сть:",
+	"overlay.tntcartcatguard.distance": "Найближча:"
+}

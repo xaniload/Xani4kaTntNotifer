@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "tntcartcatguard",
+	"version": "${version}",
+	"name": "TNT Cart Cat Guard",
+	"description": "Shows a cat warning overlay when TNT minecarts are nearby and lets you tune the alert in config.",
+	"authors": [
+		"Xani4ka",
+		"Codex"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://fabricmc.net/"
+	},
+	"license": "MIT",
+	"icon": "assets/tntcartcatguard/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.xani.tntcartcatguard.TntCartCatGuardMod"
+		],
+		"client": [
+			"dev.xani.tntcartcatguard.client.TntCartCatGuardClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
