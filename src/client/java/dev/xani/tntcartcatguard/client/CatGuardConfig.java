@@ -22,7 +22,8 @@ public final class CatGuardConfig {
 	public int overlayY = 12;
 	public int overlayWidth = 96;
 	public int overlayHeight = 96;
-	public boolean drawWarningText = true;
+	public boolean anchorRight = true;
+	public boolean drawWarningText = false;
 	public boolean drawDistanceText = true;
 	public int warningTextColor = 0xFFFF8080;
 	public int countTextColor = 0xFFFFFFFF;

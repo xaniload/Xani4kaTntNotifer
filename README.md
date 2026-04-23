@@ -7,7 +7,7 @@ Client-side Fabric mod for Minecraft 1.21.11 that warns the player about nearby 
 - shows a cat image when TNT minecarts are close
 - toggle by default on `K`
 - the key can be changed in Minecraft controls
-- configurable radius, position, size, colors, sound, and custom image path
+- configurable radius, right-side position, size, colors, sound, and custom image path
 
 ## Config
 

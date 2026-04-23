@@ -112,12 +112,23 @@ public final class TntCartCatGuardClient implements ClientModInitializer {
 			texture = BUILTIN_TEXTURE;
 		}
 
-		int x = config.overlayX;
+		int x = config.anchorRight
+			? Math.max(0, client.getWindow().getScaledWidth() - config.overlayWidth - config.overlayX)
+			: config.overlayX;
 		int y = config.overlayY;
 		int width = config.overlayWidth;
 		int height = config.overlayHeight;
 
-		drawContext.fill(x - 4, y - 4, x + width + 4, y + height + 28, 0x66000000);
+		int textLines = 0;
+		if (config.drawWarningText) {
+			textLines++;
+		}
+		if (config.drawDistanceText) {
+			textLines++;
+		}
+		int bottomPadding = textLines > 0 ? 8 + textLines * 10 : 4;
+
+		drawContext.fill(x - 4, y - 4, x + width + 4, y + height + bottomPadding, 0x66000000);
 		drawContext.drawTexturedQuad(texture, x, y, x + width, y + height, 0.0F, 1.0F, 0.0F, 1.0F);
 
 		int textY = y + height + 4;

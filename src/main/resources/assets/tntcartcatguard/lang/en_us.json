@@ -1,9 +1,9 @@
 {
-	"category.tntcartcatguard": "TNT Cart Cat Guard",
-	"key.tntcartcatguard.toggle": "Toggle TNT Cart Cat Guard",
-	"message.tntcartcatguard.enabled": "TNT Cart Cat Guard enabled",
-	"message.tntcartcatguard.disabled": "TNT Cart Cat Guard disabled",
-	"overlay.tntcartcatguard.warning": "TNT MINECART NEARBY",
-	"overlay.tntcartcatguard.count": "Count:",
-	"overlay.tntcartcatguard.distance": "Nearest:"
+	"category.tntcartcatguard": "Защита от TNT-вагонеток",
+	"key.tntcartcatguard.toggle": "Вкл/выкл защиту от TNT-вагонеток",
+	"message.tntcartcatguard.enabled": "Защита от TNT-вагонеток включена",
+	"message.tntcartcatguard.disabled": "Защита от TNT-вагонеток выключена",
+	"overlay.tntcartcatguard.warning": "РЯДОМ TNT-ВАГОНЕТКА",
+	"overlay.tntcartcatguard.count": "Кол-во:",
+	"overlay.tntcartcatguard.distance": "Ближайшая:"
 }
